@@ -6,7 +6,7 @@ namespace Tempest\Vite\Exceptions;
 
 use Exception;
 
-final class DevelopmentServerNotRunningException extends Exception implements ViteException
+final class DevelopmentServerWasNotRunning extends Exception implements ViteException
 {
     public function __construct()
     {

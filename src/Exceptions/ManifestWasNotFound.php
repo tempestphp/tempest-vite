@@ -6,7 +6,7 @@ namespace Tempest\Vite\Exceptions;
 
 use Exception;
 
-final class ManifestNotFoundException extends Exception implements ViteException
+final class ManifestWasNotFound extends Exception implements ViteException
 {
     public function __construct(string $path)
     {
